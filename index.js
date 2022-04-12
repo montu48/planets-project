@@ -1,2 +1,4 @@
 const fs = require('fs');
-fs.openSync('../')
+const { parse } = require('csv-parse');
+
+
